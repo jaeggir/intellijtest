@@ -35,22 +35,6 @@
         <maven-release-plugin.version>2.5.1</maven-release-plugin.version>
     </properties>
 
-    <distributionManagement>
-
-        <repository>
-            <id>avriosReleases</id>
-            <name>Releases</name>
-            <url>http://nexus.uht-traktor.ch/content/repositories/internal-repository</url>
-        </repository>
-
-        <snapshotRepository>
-            <id>avriosSnapshots</id>
-            <name>Snapshots</name>
-            <url>http://nexus.uht-traktor.ch/content/repositories/internal-repository-snapshot</url>
-        </snapshotRepository>
-
-    </distributionManagement>
-
     <dependencyManagement>
 
         <!-- maven sub modules -->
