@@ -121,6 +121,7 @@
                 <version>${maven-release-plugin.version}</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <goals>deploy</goals>
                 </configuration>
             </plugin>
         </plugins>
