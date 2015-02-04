@@ -7,7 +7,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>web</artifactId>
-    <name>${project.artifactId}</name>
 
     <packaging>war</packaging>
 
